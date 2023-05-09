@@ -28,6 +28,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: "Scan Repository"
-        uses: "hugoalh/scan-virus-ghaction@v0.6.4"
+        uses: "hugoalh/scan-virus-ghaction@v0.10.1"
         with:
           git_deep: "${{github.event.inputs.git_deep || 'false'}}"
